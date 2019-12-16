@@ -54,11 +54,11 @@ https://www.sourcetreeapp.com/
 
 저장소로 사용할 폴더 우클릭
 
-![](01_git기초.assets/sourcetree 커밋 안됨 해결0.PNG)
+![](01_git기초.assets/sourcetree_error1.PNG)
 
 아래의 명령어 사용
 
-![](01_git기초.assets/sourcetree 커밋 안됨 해결-1576486423345.PNG)
+![](01_git기초.assets/sourcetree_error2.PNG)
 
 
 
