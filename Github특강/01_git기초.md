@@ -50,16 +50,6 @@ https://www.sourcetreeapp.com/
 
 ![](01_git기초.assets/SOURCETREE실행1.PNG)
 
-##### 참고. 생성이 안될 때
-
-저장소로 사용할 폴더 우클릭
-
-![](01_git기초.assets/sourcetree_error1.PNG)
-
-아래의 명령어 사용
-
-![](01_git기초.assets/sourcetree_error2.PNG)
-
 
 
 #### Git/Github 연동
@@ -99,6 +89,16 @@ https://www.sourcetreeapp.com/
 
 
 ![](01_git기초.assets/github12-3.PNG)
+
+##### 참고. 커밋이 안될 때
+
+저장소로 사용할 폴더 우클릭
+
+![](01_git기초.assets/sourcetree_error1.PNG)
+
+아래의 명령어 사용
+
+![](01_git기초.assets/sourcetree_error2.PNG)
 
 
 
