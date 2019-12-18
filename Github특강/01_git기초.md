@@ -276,3 +276,20 @@ https://www.typora.io/#windows
 
 
 
+## 참고 사이트
+
+https://ujuc.github.io/2015/12/16/git-flow-github-flow-gitlab-flow/ - 기본적인 Github 지식
+
+
+
+## Github 오픈소스 추천사이트
+
+https://github.com/jojoldu/junior-recruit-scheduler - 취업 정보
+
+https://github.com/JaeYeopHan/Interview_Question_for_Beginner - 인터뷰 정보
+
+https://github.com/tensorflow/tensorflow - 머신러닝/딥러닝 오픈소스
+
+
+
+## 
