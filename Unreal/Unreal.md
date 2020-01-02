@@ -54,5 +54,5 @@
 *  Visual Effects에 Atmospheric Fog는  설정을 했는데도 화면에 표시가 안되는데 이건 어떻게 설정하고 어떨때 사용하나?
 * Volumes에 Lightmass Importance Volume 영역 설정의 의미는? 그 영역만 빛 처리 영역으로 지정해서 하겠다는건가?
 * node 중에 frac은 어디다 쓰지?
-* 계정 확인용 테스트
+* 계정 확인용 테스트2
 
