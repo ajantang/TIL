@@ -95,10 +95,78 @@ event 처리
 
 class  생성시 처리되는 로직
 
+#### Class Setting
+
+부모 class 설정 가능
+
+### Class
+
+![](C:\Users\ajant\Downloads\built_in_class.png)
+
+#### Object
+
+최상위 class. unreal 엔진에서 사용되는 구조체 등이 선언
+
+#### Actor
+
+주로 world나 blueprint에서 호출되느 class를 만들때 상속. world에서의 위치 정보, rendering event 등이 선언
+
+#### Pawn
+
+player나 AI의 동작 제어
+
+#### Character
+
+mesh, collision, physics 속성 정의. CharacterMovementComponent로 Character의 이동
+
+#### Controller
+
+Pawn을 제어
+
+#### AIChontroller
+
+AI로 Pawn을 제어. AI를 만들 수 있음
+
+#### PlayerController
+
+ Player가 Pawn을 제어
+
+#### HUD
+
+2D 이미지(GUI 등)를 그리기 위한 함수
+
+#### PlayerCamera
+
+#### Info
+
+기본 정보 class. 주로 네트워크로 공유하는 정보 보관
+
+#### GameMode
+
+게임 규칙, 점수, 인원 등을 정의
+
+#### GameState
+
+게임 진행 시간, 게임 상태 등을 정의
+
+#### PlayerState
+
+Player의 이름, 점수 등이 정의
+
+#### WorldSetting
+
+level에 이용되는 중력 가속도 증의 정보 정의
+
+#### ActorComponenet
+
+blueprint editor의 component 모드에서 actor에 추가하는 component의 기본 class
+
 ## Unreal 질문
 
 * geometry에서 subtract으로 sphere brush를 쓸때 예제 책에선 material을 설정하는 부분이 있던데, 이게 무슨 의미인지? detail 창에 material 설정 자체가 없던데, 이게 버전 차이인지? -> 잘못 알았구만. 선택 가능하네. material 설정으로 깎여진 표면 설정을 하는구만
 *  Visual Effects에 Atmospheric Fog는  설정을 했는데도 화면에 표시가 안되는데 이건 어떻게 설정하고 어떨때 사용하나?
 * Volumes에 Lightmass Importance Volume 영역 설정의 의미는? 그 영역만 빛 처리 영역으로 지정해서 하겠다는건가?
 * node 중에 frac은 어디다 쓰지?
+* class 중 playerState는 플레이어별로 서버에서 생성되어(오프라인 게임도) 모든 클라이언트에 복제 된다 <- 라는 구문을 봤는데, 오프라인에 서버 개념이 들어가질 않는데 무슨 소리인지 모르겠네?
+* 
 
