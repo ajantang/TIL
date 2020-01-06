@@ -123,7 +123,7 @@ mesh, collision, physics 속성 정의. CharacterMovementComponent로 Character�
 
 Pawn을 제어
 
-#### AIChontroller
+#### AIController
 
 AI로 Pawn을 제어. AI를 만들 수 있음
 
@@ -161,6 +161,57 @@ level에 이용되는 중력 가속도 증의 정보 정의
 
 blueprint editor의 component 모드에서 actor에 추가하는 component의 기본 class
 
+### Macro
+
+#### UCLASS()
+
+class 선언 앞에 삽입
+
+* classGroup='그룹 이름' - 이 class가 editor에서 표시될 actor 그룹 지정
+* DependsOn='class 이름' - 지정한 class가 컴파일 전에 이 class가 코드를 생성할 수 없음
+* BlueprintType - blueprint에서 변수로 사용 가능  
+* Blueprintable - 부모 class로 선택 가능
+* NoBlueprintable - 부모 class로 선택 불가(default)
+* customConstructor - 생성자 선언의 자동 생성을 막음
+* placeable - editor에서 이 class를 level에 배치 가능(계승 o)
+* notplaceable - level에 배치 불가
+* Const - 이 class의 함수와 변수가 모두 상수(계승 o)
+* Abstract - 추사 class
+* config - 객체를 만들 때 설정을 읽어 옴
+* perObjectConfig - class 단위가 아닌 object 별로 설정을 지정
+
+#### GENERATED_BODY()
+
+class 선언의 시작 부분에 삽입된 언리얼 엔진 class에서 필요한 선언
+
+#### UPROPERTY()
+
+변수 선언 앞에 변수 속성 설정
+
+* GlobalConfig - Config와 동일하지만, 모든 자식 class에 반영
+* Localized - 속성값이 지역화 문자열 파일에서 읽어옴
+* Replicated - 속성값이 서버 및 클라이언트에 복제됨
+* ReplicatedUsing = '함수 이름' - Replicated와 함께 사용. 속성값이 복제될때 통지할 함수 지정
+* RepRetry - Replicated와 함께 사용. 복제가 실패했을 때 재시도 횟수 지정
+*  Category = '그룹 이름' - editor에서 보여질 속성 그룹 설정
+* EditAnywhere - editor에서 이 속성값 편집 가능
+* EditInstanceOnly - Details 탭에서만 속성값 편집 가능
+* EditDefaultsOnly - class default에서만 이 값을 편집 가능
+* VisibleAnywhere - editor에서 값을 볼 수 있지만 편집 안됨
+* VisibleInstanceOnly - Details 탭에서만 값이 표시. 편집 X
+* VisibleDefaultsOnly - class default에서만 값 표시. 편집 X
+* BlueprintReadOnly - 이 속성값을 blueprint에서 읽을 수 있으나 편집 X
+* BlueprintReadWrite - 이 속성값을 blueprint에서 읽고 편집 가능
+
+#### UFUNCTION()
+
+함수 선언 앞에 설정
+
+* BlueprintImplementableEvent - ?
+* SealedEvent - 
+* Exec -  이 함수를 명령행에서 실행 가능
+* Server - 
+
 ## Unreal 질문
 
 * geometry에서 subtract으로 sphere brush를 쓸때 예제 책에선 material을 설정하는 부분이 있던데, 이게 무슨 의미인지? detail 창에 material 설정 자체가 없던데, 이게 버전 차이인지? -> 잘못 알았구만. 선택 가능하네. material 설정으로 깎여진 표면 설정을 하는구만
@@ -168,5 +219,5 @@ blueprint editor의 component 모드에서 actor에 추가하는 component의 �
 * Volumes에 Lightmass Importance Volume 영역 설정의 의미는? 그 영역만 빛 처리 영역으로 지정해서 하겠다는건가?
 * node 중에 frac은 어디다 쓰지?
 * class 중 playerState는 플레이어별로 서버에서 생성되어(오프라인 게임도) 모든 클라이언트에 복제 된다 <- 라는 구문을 봤는데, 오프라인에 서버 개념이 들어가질 않는데 무슨 소리인지 모르겠네?
-* 
+* generated_body()의 기능을 정확히 알고 싶다
 
