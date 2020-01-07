@@ -208,9 +208,24 @@ class 선언의 시작 부분에 삽입된 언리얼 엔진 class에서 필요�
 함수 선언 앞에 설정
 
 * BlueprintImplementableEvent - ?
+
 * SealedEvent - 
+
 * Exec -  이 함수를 명령행에서 실행 가능
-* Server - 
+
+* Server - 이 함수가 서버에서 실행되기 위해 복제됨. 함수 선언은 함수 이름 대신 '함수 이름_Implementation'으로 작성해야 합니다
+
+* NetMulticast - 이 함수가 actor의 NwrOener에 관계없이 서버와 모든 client에 복제되고 실행됨
+
+* Reliable - 복제된 함수를 호출하는 것이 확실하게 진행되어야 함을 나타냅니다. 'Client'나 'Server' 지정자와 함께 사용할 때만 유효합니다
+
+* Unreliable - 복제된 함수를 호출하는 것이 불확실하게 진행되어야 함을 나타냅니다. 'Client'나 'Server' 지정자와 함께 사용할 때만 유효합니다
+
+* BlueprintCallable - 이 함수는 blueprint에서 호출 가능하고 표시 됨
+
+* Category = '그룹 이름' - blueprint editor의 표시될 함수 그룹을 지정
+
+  cf> ObjectBase.h 에 macro 지정자가 선언되어 있음
 
 ## Unreal 질문
 
