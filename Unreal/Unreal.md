@@ -2,6 +2,10 @@
 
 ## Unreal tip
 
+### Main Editor 단축키
+
+* Alt + P - 플레이
+
 ### Material Editor 단축키
 
 * 노드의 핀을 Alt + 마우스 좌클릭 - 연결 해제
@@ -87,9 +91,16 @@
 
 class blueprint에만 있는 기능. blueprint의 구성 요소 추가/편집하여 actor를 완성
 
+'(inherited)'이 붙어 있는 것은  c++ code로 작성되었다는 표시 
+
 #### Event Graph
 
 event 처리
+
+##### Node
+
+* Timeline - 시간에 따른 value 변화 설정 가능(간단한 움직임 처리에 적합)
+* Spawn Emitter at Location - Emitter는 특정 위치에  particle effect를 만듬
 
 #### Construction Graph
 
@@ -98,6 +109,8 @@ class  생성시 처리되는 로직
 #### Class Setting
 
 부모 class 설정 가능
+
+
 
 ### Class
 
