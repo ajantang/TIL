@@ -65,6 +65,9 @@
 * Ceil - 변수 소수점 값 올림
 * Floor - 변수 소수점 값 버림
 * Frac - 변수 정수값 버림
+* Break Rot - 회전값을 3가지 float으로 분해
+* Make Rot - float 값을 회전값으로 변환
+* 
 
 #### Material 입력값
 
