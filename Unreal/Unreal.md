@@ -67,7 +67,8 @@
 * Frac - 변수 정수값 버림
 * Break Rot - 회전값을 3가지 float으로 분해
 * Make Rot - float 값을 회전값으로 변환
-* 
+* Add Control Yaw Input - 컨트롤러의 방향이 Yaw 방향 회전
+* Add Control Pitch Input - 컨트롤러의 방향이 Pitch 방향 회전
 
 #### Material 입력값
 
