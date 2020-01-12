@@ -69,6 +69,7 @@
 * Make Rot - float 값을 회전값으로 변환
 * Add Control Yaw Input - 컨트롤러의 방향이 Yaw 방향 회전
 * Add Control Pitch Input - 컨트롤러의 방향이 Pitch 방향 회전
+* 
 
 #### Material 입력값
 
@@ -77,7 +78,7 @@
 * Metalic - 금속 재질 수치
 * Specular - 반사값(Roughness, Metalic과 함께 사용 X 권장)
 * Emissive - 자체 발광 색상(랜턴, 발광 물체 등을 표현)
-* Normal - 
+* 
 
 
 
