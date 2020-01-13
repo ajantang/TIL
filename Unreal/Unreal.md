@@ -106,6 +106,8 @@ event 처리
 
 * Timeline - 시간에 따른 value 변화 설정 가능(간단한 움직임 처리에 적합)
 * Spawn Emitter at Location - Emitter는 특정 위치에  particle effect를 만듬
+* Event Begin Play - 게임이 시작되면 곧바로 호출
+* Add to Viewport - viewport에 추가
 
 #### Construction Graph
 
@@ -115,7 +117,20 @@ class  생성시 처리되는 로직
 
 부모 class 설정 가능
 
+### User Infterface
 
+#### Widget Blueprint
+
+##### Palette
+
+###### Panel
+
+* Horizontal Box - 
+* Vertical Box - 
+
+##### Detail
+
+* Anchors - 스크린의 크기/비율 변화에 따라 위치 자동 조절
 
 ### Class
 
@@ -253,4 +268,5 @@ class 선언의 시작 부분에 삽입된 언리얼 엔진 class에서 필요�
 * node 중에 frac은 어디다 쓰지?
 * class 중 playerState는 플레이어별로 서버에서 생성되어(오프라인 게임도) 모든 클라이언트에 복제 된다 <- 라는 구문을 봤는데, 오프라인에 서버 개념이 들어가질 않는데 무슨 소리인지 모르겠네?
 * generated_body()의 기능을 정확히 알고 싶다
+* node 중에 Add to Viewport 기능이 정확히? viewport에 추가하겠다는 기능 같은데, target으로 받는 인자의 종류가 위젯만 받는건가? 
 
