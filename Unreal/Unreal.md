@@ -98,6 +98,8 @@ class blueprint에만 있는 기능. blueprint의 구성 요소 추가/편집하
 
 '(inherited)'이 붙어 있는 것은  c++ code로 작성되었다는 표시 
 
+* [***] Collison - 충돌 처리범위
+
 #### Event Graph
 
 event 처리
