@@ -98,7 +98,33 @@ class blueprint에만 있는 기능. blueprint의 구성 요소 추가/편집하
 
 '(inherited)'이 붙어 있는 것은  c++ code로 작성되었다는 표시 
 
-* [***] Collison - 충돌 처리범위
+Pawn, Character class 가 플레이어 제어할 수 있는 기본적인 actor의 class
+
+[***] Collison - 충돌 처리범위
+
+##### Character Movement
+
+* Walkable Floor Z - 놀라갈 수 있는 기울기 설정 값?
+
+* Groud Friction - 제동력
+
+* Orient Rotation to Movement - true : 캐릭터의 방향에 따라 카메라 방향 이동
+
+* Use Controller Desired Rotation - true : 캐릭터의 방향을 컨트롤러의 방향으로 맞춤
+
+* Can Walk Off Ledges - true : 경사가 가파른 언덕에서 낙하
+
+* Can Walk Off Ledges When Crouching - 웅크릴때? 위의 옵션이 켜짐
+
+  ##### 
+
+##### Camera
+
+* Use Controller View Rotation - true : camera의 반향을 Controller class의 방향에 따라 움직임
+
+##### SpringArm
+
+* 
 
 #### Event Graph
 
