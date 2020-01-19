@@ -124,7 +124,8 @@ Pawn, Character class 가 플레이어 제어할 수 있는 기본적인 actor�
 
 ##### SpringArm
 
-* 
+* Enable Camera Lag - 캐릭터가 이동할 때 카메라 지연
+* Enable Camera Lag - 캐릭터가 방향을 바꿀 때의 카메라 지연
 
 #### Event Graph
 
@@ -306,4 +307,5 @@ class 선언의 시작 부분에 삽입된 언리얼 엔진 class에서 필요�
 * generated_body()의 기능을 정확히 알고 싶다
 * node 중에 Add to Viewport 기능이 정확히? viewport에 추가하겠다는 기능 같은데, target으로 받는 인자의 종류가 위젯만 받는건가?
 * VR 프로젝트 생성시 c++ 선택이 안되던데, 이게 프로젝트 내부에서 c++ 사용에 다른 제약이 있는건지? 
+* SpringArm과 Camera component를 같이 사용하라고 하는데, 둘의 개념이 정확히 어떻게 나눠진 것인지?
 
