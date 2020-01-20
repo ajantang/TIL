@@ -137,6 +137,8 @@ event 처리
 * Spawn Emitter at Location - Emitter는 특정 위치에  particle effect를 만듬
 * Event Begin Play - 게임이 시작되면 곧바로 호출
 * Add to Viewport - viewport에 추가
+* Get Owning Actor - 애니메이션 블루프린트를 사용하고 있는 mesh의 부모 actor 참조
+* 
 
 #### Construction Graph
 
