@@ -69,7 +69,10 @@
 * Make Rot - float 값을 회전값으로 변환
 * Add Control Yaw Input - 컨트롤러의 방향이 Yaw 방향 회전
 * Add Control Pitch Input - 컨트롤러의 방향이 Pitch 방향 회전
-* 
+
+
+
+![](C:\Users\ajant\Pictures\회전.jpg)
 
 #### Material 입력값
 
@@ -310,6 +313,6 @@ class 선언의 시작 부분에 삽입된 언리얼 엔진 class에서 필요�
 * node 중에 Add to Viewport 기능이 정확히? viewport에 추가하겠다는 기능 같은데, target으로 받는 인자의 종류가 위젯만 받는건가?
 * VR 프로젝트 생성시 c++ 선택이 안되던데, 이게 프로젝트 내부에서 c++ 사용에 다른 제약이 있는건지? 
 * SpringArm과 Camera component를 같이 사용하라고 하는데, 둘의 개념이 정확히 어떻게 나눠진 것인지?
-* 음....뭐지 예제 7.3 다시 확인 바람 - camera rotation 관련 블루프린트 설정 법 확인 필요
+* ~~음....뭐지 예제 7.3 다시 확인 바람 - camera rotation 관련 블루프린트 설정 법 확인 필요~~ - 해결
 * 메타데이터? c++ 관련 메타데이터 설정법에 대한 부분이 불명확함. 에디터 빌드할때 c++ 코드에 접속할 수 있지만 정식 출시에는 쓰지 않는다는게 개발 단계에서만 쓰고 정식 버전에서 사용할때는 쓰지 않는다는 뜻? 
 
