@@ -34,6 +34,32 @@
 * O + 좌클릭 - Do Once node 생성
 * P + 좌클릭 - BeginPlay node 생성
 
+## VR Setting
+
+### Oculus
+
+#### DOC
+
+* https://developer.oculus.com/documentation/unreal/unreal-engine/
+* https://docs.unrealengine.com/en-US/Platforms/VR/OculusVR/index.html
+
+#### READY TO DEVELOP
+
+* Oculus reuntime 설치
+* 편집기에서 VR Preview 버튼 클릭
+
+### VIVE
+
+#### DOC
+
+* https://docs.unrealengine.com/en-US/Platforms/VR/SteamVR/index.html
+
+#### READY TO DEVELOP
+
+* SteamVR 설치
+* Room Setup 실행
+* 편집기에서 VR Preview 버튼 클릭
+
 ## Unreal 용어 정리
 
 ### mode
