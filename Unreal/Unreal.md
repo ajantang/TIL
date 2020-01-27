@@ -342,3 +342,7 @@ class 선언의 시작 부분에 삽입된 언리얼 엔진 class에서 필요�
 * ~~음....뭐지 예제 7.3 다시 확인 바람 - camera rotation 관련 블루프린트 설정 법 확인 필요~~ - 해결
 * 메타데이터? c++ 관련 메타데이터 설정법에 대한 부분이 불명확함. 에디터 빌드할때 c++ 코드에 접속할 수 있지만 정식 출시에는 쓰지 않는다는게 개발 단계에서만 쓰고 정식 버전에서 사용할때는 쓰지 않는다는 뜻? 
 
+
+
+관련 강의 수강중 - https://www.udemy.com/course/unreal-engine-the-ultimate-game-developer-course/
+
