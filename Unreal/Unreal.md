@@ -5,6 +5,7 @@
 ### Main Editor 단축키
 
 * Alt + P - 플레이
+* F(Actor 선택 상태) - Actor 로 카메라 이동
 
 ### Material Editor 단축키
 
