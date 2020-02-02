@@ -4,6 +4,10 @@
 
 * DB 에서 오차를 ERROR라 표현
 
+
+
+![](C:\Users\ajant\Downloads\함수.png)
+
 1. ### Linear  Classifier
 
    * 분류를 위한 요소는 Domain  knowledge(전문가 집단을 통해 정함)
