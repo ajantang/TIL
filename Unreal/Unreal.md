@@ -168,7 +168,7 @@ event 처리
 * Event Begin Play - 게임이 시작되면 곧바로 호출
 * Add to Viewport - viewport에 추가
 * Get Owning Actor - 애니메이션 블루프린트를 사용하고 있는 mesh의 부모 actor 참조
-* 
+* Actor Has Tag - 카겟이 해당 tag를 가지고 있는지 출력
 
 #### Construction Graph
 
