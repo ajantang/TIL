@@ -321,6 +321,10 @@ class 선언의 시작 부분에 삽입된 언리얼 엔진 class에서 필요�
 
   cf> ObjectBase.h 에 macro 지정자가 선언되어 있음
 
+### c++ 디버깅 코드
+
+* AddOnScreenDebugMessage(float, float, FColor, "Text"); - GEngine 클래스 함수로 화면에 "Text" 출력 
+
 ### 자료형
 
 * FVector - 3차원 벡터
