@@ -333,6 +333,12 @@ class 선언의 시작 부분에 삽입된 언리얼 엔진 class에서 필요�
 * FRotator - 3차원 공간상의 회전 정보
 * FTransform - 4*4 배열(회전, 위치, 스케일 정보)
 
+### AI 설정
+
+* Behavior Tree - 
+* AIController - 
+* Blackboard - 
+
 ## Unreal 질문
 
 * geometry에서 subtract으로 sphere brush를 쓸때 예제 책에선 material을 설정하는 부분이 있던데, 이게 무슨 의미인지? detail 창에 material 설정 자체가 없던데, 이게 버전 차이인지? -> 잘못 알았구만. 선택 가능하네. material 설정으로 깎여진 표면 설정을 하는구만
