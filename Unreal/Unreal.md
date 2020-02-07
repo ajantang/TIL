@@ -168,7 +168,10 @@ event 처리
 * Event Begin Play - 게임이 시작되면 곧바로 호출
 * Add to Viewport - viewport에 추가
 * Get Owning Actor - 애니메이션 블루프린트를 사용하고 있는 mesh의 부모 actor 참조
-* Actor Has Tag - 카겟이 해당 tag를 가지고 있는지 출력
+* Actor Has Tag - 타겟이 해당 tag를 가지고 있는지 출력
+* Line Trace by Channel - 시작과 종료 위치에 공선을 날려 접촉 판덩 결과를 출력
+* Break Hit Result - hit 정보 구조체 내부 정보
+* Get Anim Instance - 애니메이션 블루프린트 호출(컴포넌트에서 배치)
 
 #### Construction Graph
 
