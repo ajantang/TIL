@@ -173,6 +173,17 @@ event 처리
 * Break Hit Result - hit 정보 구조체 내부 정보
 * Get Anim Instance - 애니메이션 블루프린트 호출(컴포넌트에서 배치)
 
+##### Node - AI
+
+* MoveToActor - 타겟/정지 조건등을 상세 설정하여 이동(리턴값? 바이트인거 같은데??)
+* MoveToLocation - MoveToActor와 동일한 기능 + dest(vector) + 노드 사용 전 좌표 설정? 이 존재(dest의 정확한 역할은 찾아봐야할듯)
+* SimpleMoveToActor - 타겟만 설정
+* SimpleMoveToLocation - 위치만 설정
+* StopMovement - 위의 노드들을 이용해 움직일때 멈춤
+* GetPathConst - 경로를 탐색하고 그 비용을 출력(맵 좌표에 따라 비용을 다르게 설정 가능 - 참고 : Component -> Nav Modifier)
+* GetPathLenth - 경로 길이
+* GetRandomPoint - 범위 내의 navi mesh에서 랜덤한 위치 (ai 젠 좌표 설정에 사용)
+
 #### Construction Graph
 
 class  생성시 처리되는 로직
