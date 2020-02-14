@@ -157,6 +157,10 @@ Pawn, Character class 가 플레이어 제어할 수 있는 기본적인 actor�
 * Enable Camera Lag - 캐릭터가 이동할 때 카메라 지연
 * Enable Camera Lag - 캐릭터가 방향을 바꿀 때의 카메라 지연
 
+##### Motion Controller
+
+* Hand - Right/Left 설정
+
 #### Event Graph
 
 event 처리
