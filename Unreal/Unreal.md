@@ -397,3 +397,10 @@ class 선언의 시작 부분에 삽입된 언리얼 엔진 class에서 필요�
 
 관련 강의 수강중 - https://www.udemy.com/course/unreal-engine-the-ultimate-game-developer-course/
 
+
+
+
+
+### 카테고리 미정
+
+* c++ map과 unreal TMap의 차이는 내부 정렬의 차이/성능 차이
