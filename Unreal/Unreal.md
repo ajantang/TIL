@@ -393,6 +393,7 @@ class 선언의 시작 부분에 삽입된 언리얼 엔진 class에서 필요�
 * C++ API Reference 에서 Core 카테고리에 GError라는 변수가 있던데, Critical Errors 라는 설명 왜에 실제 에러 코드와 그에 대한 설명이 따로 있는지?
 * VR Debug Plugin 정보 필요
 * blueprint library / interface / Component의 필요성(정확히 어떤 용도로 나누어 사용하고, 사용함으로써 생기는 장단점)
+* ANS와 AN에서 내부에 함수 처리가 어떤식으로 되는지
 
 
 
