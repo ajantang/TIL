@@ -394,6 +394,7 @@ class 선언의 시작 부분에 삽입된 언리얼 엔진 class에서 필요�
 * VR Debug Plugin 정보 필요
 * blueprint library / interface / Component의 필요성(정확히 어떤 용도로 나누어 사용하고, 사용함으로써 생기는 장단점)
 * ANS와 AN에서 내부에 함수 처리가 어떤식으로 되는지
+* VR용으로 사용할 캐릭터 (ik?)에 대한 참고 자료 필요. 왜인지 모르지만 일반 마네킹에 붙인 카메라가 90도 각도로 꺾여서 보임
 
 
 
