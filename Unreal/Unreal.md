@@ -279,6 +279,8 @@ blueprint editor의 component 모드에서 actor에 추가하는 component의 �
 
 class 선언 앞에 삽입
 
+new/delete 사용 불가. ConstructObject/UObject::ConnditionalBeginDestroy()를 사용해야 함
+
 * classGroup='그룹 이름' - 이 class가 editor에서 표시될 actor 그룹 지정
 * DependsOn='class 이름' - 지정한 class가 컴파일 전에 이 class가 코드를 생성할 수 없음
 * BlueprintType - blueprint에서 변수로 사용 가능  
